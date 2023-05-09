@@ -1,0 +1,33 @@
+body {
+    margin: 10px;
+    background-color: rgb(48, 48, 48);
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+
+h1, h2, h5 {
+    color: white;
+    text-align: center;
+}
+
+#imacimgbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    max-width: 70%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#par1 {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    z-index: -1;
+    filter: drop-shadow(10px 10px 10px #222);
+}
